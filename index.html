@@ -1,5 +1,11 @@
+<!DOCTYPE HTML>
 <html>
  <head>
+   <!--
+    dibuat 18 Feb 2017, Jakarta Selatan
+    David Adi Nugroho
+    <davidadi216@gmail.com>
+   -->
   <title>Jagung - Jadwal Sholat Masjid Agung</title>
   <script>
     //variable global
@@ -58,9 +64,10 @@
                 <li>Magrib: '+maghrib+' WIB</li>\
                 <li>Isya: '+isya+' WIB</li>\
               </ul>\
-              <label for="nb">*&gt; data diambil dari <i><a target="_blank" href="'+urlGoogle+"?address="+daerah+'">GoogleMaps API</a></i> dan <i><a target="_blank" href="'+urlAladhan+timestampoftheday+'?latitude='+latitude+'&longitude='+longitude+'&timezonestring=Asia/Jakarta'+'">AlAdhan.com Prayer Times API</a></i></label>\
+              <label for="nb">*untuk WITA silahkan ditambah +1jam, WIT +2jam.</label><br/>\
+              <label for="nb">*data diambil dari <i><a target="_blank" href="'+urlGoogle+"?address="+daerah+'">GoogleMaps API</a></i> dan <i><a target="_blank" href="'+urlAladhan+timestampoftheday+'?latitude='+latitude+'&longitude='+longitude+'&timezonestring=Asia/Jakarta'+'">AlAdhan.com Prayer Times API</a></i></label>\
               <br/>\
-              <label for="nb">*&gt; link github &lt;ini link github&gt;</i></label>\
+              <label for="nb">*kode program: <i><a target="_blank" href="https://github.com/davidadinugroho/jagung-masjidagung">lihat disini</a></i></label>\
               \
               ';
               $('#output').html(html);
